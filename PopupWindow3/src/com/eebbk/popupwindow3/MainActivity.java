@@ -40,6 +40,8 @@ public class MainActivity extends Activity implements OnClickListener
 		popBtn = (Button)findViewById(R.id.popup_btn);
 		popBtn.setOnClickListener(this);
 		
+		System.out.println("git test haha");
+		
 		for(int i = 0; i < 2; i++)
 		{
 			HashMap<String, String> groupMap = new HashMap<String, String>();
