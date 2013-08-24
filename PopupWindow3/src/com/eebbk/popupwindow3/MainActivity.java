@@ -56,6 +56,8 @@ public class MainActivity extends Activity implements OnClickListener
 				childItemList.add(childMap);
 			}
 			childList.add(childItemList);
+
+			System.out.println("test again third time");
 		}
 		
 //		adapter = new ExListAdapter(this, groupList, childList);
